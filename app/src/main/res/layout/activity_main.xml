@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/noche_colorida_en_las_montanas_arte_digital_2440x4320"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/iv_coin"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_heads"
+        />
+
+    <TextView
+        android:id="@+id/coin_side"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_coin"
+        android:layout_centerHorizontal="true"
+        android:textColor="#999999"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:id="@+id/textView_Heads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="12sp"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/textView_Tails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="12sp"
+        android:visibility="gone"
+        />
+</RelativeLayout>
